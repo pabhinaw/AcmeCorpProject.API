@@ -1,0 +1,10 @@
+You must have Docker installed on your System for running this project.
+
+Run this in src folder for building the project:
+
+docker-compose build
+And then run with:
+
+docker-compose up
+The API is configured on port 80, but you can change in docker-compose.override.yml if needed.
+
